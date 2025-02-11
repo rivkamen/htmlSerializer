@@ -16,7 +16,6 @@ class Program
 
         Console.WriteLine("Parsing completed.");
 
-        // הדפסה של שמות התגיות שנמצאו בעץ
         PrintElementNames(root);
 
         Console.ReadLine();
