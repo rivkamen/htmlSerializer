@@ -7,7 +7,7 @@ class Program
 {
     static async Task Main()
     {
-        var url = "https://hebrewbooks.org/beis";
+        var url = "https://www.scaler.com/topics/self-closing-tags-in-html/";
         var html = await Load(url);
         var cleanHtml = new Regex("\\s").Replace(html, "");
 
